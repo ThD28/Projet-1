@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="styleRoot.css">
     <link rel="stylesheet" href="style_page_list.css">
-    <link rel="stylesheet" href="script_page_list.js">
+    <!-- <link rel="stylesheet" href="script_page_list.js"> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +14,28 @@
         Ceci est une nav bar
     </nav>
     <div id="container_1">
-
+        <div id="nav_bar_list">
+            <div id="nav_bar_list_title">
+                Créer votre liste personnalisé :
+            </div>
+            <div id="nav_bar_list_any">
+                <input type="text" placeholder="Entrez un nom" id="input_list">
+                <!-- <input type="submit" name="send"s id="submit_list" value="Ajouter"> -->
+                <button id="submit_list">Ajouter</button>
+            </div>
+        </div>
+        <div id="nav_bar_list_content">
+            <ul id="my_list">
+                <li></li>
+            </ul>
+        </div>
     </div>
     <div id="container_2">
 
     </div>
+    <script src="script_page_list.js"></script>
 </body>
+<footer>
+    Ceci est un footer
+</footer>
 </html>
