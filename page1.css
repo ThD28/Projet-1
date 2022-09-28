@@ -11,7 +11,7 @@ h2{
 
 .box{
     display: flex;
-    height: 100%;
+    height: auto;
     width: 100%;
     background-color: var(--light);
     flex-direction: column;
@@ -24,7 +24,7 @@ h2{
 
 .box1{
     background-color: var(--dark);
-    height: 60%;
+    height: 30em;
     width: 90%;
     border-radius: 5px;
     padding-bottom: 1em;
@@ -32,7 +32,7 @@ h2{
 
 #news{
     display: flex;
-    height: 80%;
+    height: 27em;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@ h2{
 }
 
 #lastNews{
-    height: 20%;
+    height: 2em;
     width: 100%;
     background: linear-gradient(to right, var(--violet), var(--rouge));
     display: flex;
@@ -50,7 +50,7 @@ h2{
 
 .box2{
     background-color: var(--dark);
-    height: 80%;
+    height: 53em;
     width: 90%;
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@ h2{
 
 #title{
     background: linear-gradient(to right, var(--violet), var(--rouge));
-    height: 10%;
+    height: 2em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -74,74 +74,76 @@ h2{
 
 #content1{
     background-color: purple;
-    height: 60%;
+    height: 16em;
     width: 90%;
     border-radius: 5px;
 }
 
 #content2{
     background-color: purple;
-    height: 60%;
+    height: 16em;
     width: 90%;
     border-radius: 5px;
 }
 
 #content3{
     background-color: purple;
-    height: 60%;
+    height: 16em;
     width: 90%;
     border-radius: 5px;
 }
 
 #content4{
     background-color: purple;
-    height: 60%;
+    height: 16em;
     width: 90%;
     border-radius: 5px;
 }
 
 #content5{
     background-color: purple;
-    height: 60%;
+    height: 16em;
     width: 90%;
     border-radius: 5px;
 }
 
 #content6{
     background-color: purple;
-    height: 60%;
+    height: 16em;
     width: 90%;
     border-radius: 5px;
 }
 
 #content7{
     background-color: purple;
-    height: 60%;
+    height: 16em;
     width: 90%;
     border-radius: 5px;
 }
 
 #content8{
     background-color: purple;
-    height: 60%;
+    height: 16em;
     width: 90%;
     border-radius: 5px;
 }
 
 #content9{
     background-color: purple;
-    height: 60%;
+    height: 16em;
     width: 90%;
     border-radius: 5px;
 }
 
 .box3{
     background-color: var(--dark);
-    height: 20%;
+    height: 25em;
     width: 90%;
     border-radius: 5px;
 }
 
 @media all  and (min-width : 768px){
-
+    .box3{
+        
+    }
 }
