@@ -6,10 +6,30 @@
     <link rel="stylesheet" href="styleRoot.css">
     <link rel="stylesheet" href="page1.css">
     <link rel="stylesheet" href="carrousel.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="carrousel.js">
     <title>Acceuil</title>
 </head>
 <body>
-    <nav></nav>
+    <header>
+        <div class="navbar">
+          <img src="./images/logo.png" alt="logo" id="logo" />
+          <div class="listnav">
+            <nav>
+              <ul>
+                <li><a href=""></a>Home</li>
+  
+                <li><a href=""></a>Team Fav</li>
+  
+                <li><a href=""></a>My List</li>
+  
+                <li><a href=""></a>Wallpaper</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+     
     <div class = "box">
         
         <div class = box1>
@@ -25,19 +45,23 @@
                     </button>
                      
                     <ul class="slides-container" id="slides-container">
-                      <li class="slide"><img src = ./image1.jpg alt = "test" /></li>
-                      <li class="slide"><img src = ./image2.jpg /></li>
-                      <li class="slide"><img src = ./image3.jpg /></li>
-                      <li class="slide"><img src = ./image4.jpg /></li>
+                      <li class="slide"><img src = ./images/image1.jpg alt = "test" /></li>
+                      <li class="slide"><img src = ./images/image2.jpg /></li>
+                      <li class="slide"><img src = ./images/image3.jpg /></li>
+                      <li class="slide"><img src = ./images/image4.jpg /></li>
                     </ul>
                     <script src="index.js"></script>
                   </section>
             </div>
-            <div id = lastNews></div>
+            <div id = lastNews>
+                <h2>Les dernière sorties !</h2>
+            </div>
         </div>
 
         <div class = box2>
-            <div id = title></div>
+            <div id = title>
+                <h2>Les plus populaires !</h2>
+            </div>
             <div id = content1></div>
             <div id = content2></div>
             <div id = content3></div>
@@ -51,6 +75,6 @@
 
         <div class = box3></div>
     </div>
-    <script>carrousel.js</script>
+    <script src = "carrousel.js"></script>
 </body>
 </html>
