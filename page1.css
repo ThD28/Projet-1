@@ -1,0 +1,99 @@
+.box{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.box1{
+    background-color: red;
+    height: 20%;
+    width: 90%;
+}
+
+.box2{
+    background-color: red;
+    height: 60%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#title{
+    background-color: green;
+    height: 10%;
+    width: 90%;
+}
+
+#content1{
+    background-color: green;
+    height: 30%;
+    width: 90%;
+}
+
+#content2{
+    background-color: green;
+    height: 30%;
+    width: 90%;
+}
+
+#content3{
+    background-color: green;
+    height: 30%;
+    width: 90%;
+}
+
+#content4{
+    background-color: green;
+    height: 30%;
+    width: 90%;
+}
+
+#content5{
+    background-color: green;
+    height: 30%;
+    width: 90%;
+}
+
+#content6{
+    background-color: green;
+    height: 30%;
+    width: 90%;
+}
+
+#content7{
+    background-color: green;
+    height: 30%;
+    width: 90%;
+}
+
+#content8{
+    background-color: green;
+    height: 30%;
+    width: 90%;
+}
+
+#content9{
+    background-color: green;
+    height: 30%;
+    width: 90%;
+}
+
+.box3{
+    background-color: red;
+    height: 20%;
+    width: 90%;
+}
+
+@media all  and (min-width : 768px){
+
+}
