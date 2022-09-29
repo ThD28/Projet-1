@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: var(--bodyP);
+    font-family: 'Permanent Marker', cursive;
 }
 
 #logo{
@@ -37,19 +37,15 @@ header{
     text-align: center;
     text-decoration: none;
     outline: none;
-    height: 2px;
-    width: 90px;
-    color: #fff;
-    border-radius: 15px;
+    width: auto;
     margin: 3px;
     padding: 2%;
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: var(--dark);
-    border:solid 1px var(--violetF);
-    background-color: var(--light);
+    color: var(--light);
+    font-size: 23px;
 }
 
 footer{
@@ -62,10 +58,6 @@ footer{
 footer p{
     color: var(--light);
     opacity: 0.8;
-}
-
-#copyright{
-    margin-top: 2em;
 }
 
 .M img{
