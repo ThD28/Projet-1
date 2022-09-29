@@ -1,54 +1,54 @@
 #logo {
-    justify-content: center;
-    width: 20%;
-    height: auto;
+  justify-content: center;
+  width: 20%;
+  height: auto;
 }
 
 header {
-    background: linear-gradient(to top, var(--violet), var(--dark));
+  background: linear-gradient(to top, var(--violet), var(--dark));
 }
 
 .listnav {
-    margin-right: 4%;
-    width: 100%;
+  margin-right: 4%;
+  width: 100%;
 }
 
 .navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .listnav nav ul {
-    gap: 7%;
-    display: flex;
-    list-style: none;
-    justify-content: center;
+  gap: 7%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
 }
 
 .listnav ul li {
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    height: 2px;
-    width: 90px;
-    color: #fff;
-    border-radius: 15px;
-    margin: 3px;
-    padding: 2%;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: var(--dark);
-    border: solid 1px var(--violetF);
-    background-color: var(--light);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  height: 2px;
+  width: 90px;
+  color: #fff;
+  border-radius: 15px;
+  margin: 3px;
+  padding: 2%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: var(--dark);
+  border: solid 1px var(--violetF);
+  background-color: var(--light);
 }
 
 @media all and (min-width: 768px) {
-    .navbar {
-        display: flex;
-        flex-direction: initial;
-    }
+  .navbar {
+    display: flex;
+    flex-direction: initial;
+  }
 }
