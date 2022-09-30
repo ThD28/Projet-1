@@ -27,7 +27,7 @@ header {
   justify-content: center;
 }
 
-.listnav ul li {
+.listnav ul li a {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
