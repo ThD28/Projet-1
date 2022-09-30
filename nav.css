@@ -1,0 +1,78 @@
+#logo {
+    justify-content: center;
+    width: 20%;
+    height: auto;
+}
+
+header {
+    background: linear-gradient(to top, var(--violet), var(--dark));
+}
+
+.listnav {
+    margin-right: 4%;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.listnav nav ul {
+    gap: 7%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.listnav ul li {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    width: auto;
+    margin: 3px;
+    padding: 2%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--light);
+    font-size: 23px;
+}
+
+footer {
+    display: flow-root;
+    text-align: center;
+    background: linear-gradient(to top, var(--dark), var(--violet));
+    height: 8em;
+    font-family: "Permanent Marker", cursive;
+}
+
+footer p {
+    color: var(--light);
+    opacity: 0.8;
+}
+
+.M img {
+    width: 1em;
+    height: 1em;
+    margin-top: 1em;
+}
+
+.M {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+
+}
+
+
+@media all and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: initial;
+    }
+}
