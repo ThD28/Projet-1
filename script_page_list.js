@@ -27,3 +27,19 @@ button.addEventListener("click", () => {
     localList.push(input.value);
     localStorage.setItem("myList", JSON.stringify(localList));
 });
+
+const containerBox = document.getElementById("carrousel_container");
+const myBox = document.querySelectorAll("box_carrousel");
+const myLeft = document.getElementById("img_box_left");
+const myRight = document.getElementById("img_box_right");
+
+const onlyBox = document.querySelector(".box_carrousel");
+let myBoxWidth = onlyBox.offsetWidth;
+
+myRight.addEventListener("click", function() {
+    containerBox.scrollLeft += myBoxWidth;
+});
+
+myLeft.addEventListener("click", function() {
+    containerBox.scrollLeft -= myBoxWidth;
+});
