@@ -21,12 +21,20 @@ for (let i = 0; i < localList.length; i++) {
 
 const input = document.getElementById("input_list");
 const button = document.getElementById("submit_list");
+const buttonClear = document.getElementById("clear_list");
 
 button.addEventListener("click", () => {
     addLi(myList, input.value);
     localList.push(input.value);
     localStorage.setItem("myList", JSON.stringify(localList));
 });
+
+buttonClear.addEventListener("click", () => {
+    localStorage.clear();
+    window.location.reload();
+})
+
+
 
 const containerBox = document.getElementById("carrousel_container");
 const myBox = document.querySelectorAll("box_carrousel");
@@ -43,3 +51,5 @@ myRight.addEventListener("click", function() {
 myLeft.addEventListener("click", function() {
     containerBox.scrollLeft -= myBoxWidth;
 });
+
+

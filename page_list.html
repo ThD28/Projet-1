@@ -4,6 +4,9 @@
 
         <link rel="stylesheet" href="styleRoot.css">
         <link rel="stylesheet" href="style_page_list.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="style_display.css">
         <!-- <link rel="stylesheet" href="script_page_list.js"> -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,10 +14,26 @@
         <title>MangActus</title>
     </head>
 
+    <header>
+        <div class="navbar">
+            <img src="./images/logo.png" alt="logo" id="logo" />
+            <div class="listnav">
+                <nav>
+                <ul>
+                    <li><a href=""></a>Home</li>
+                    <li><a href=""></a>Team Fav</li>
+                    <li><a href=""></a>My List</li>
+                    <li><a href=""></a>Wallpaper</li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
     <body>
-        <nav>
+        <!-- <nav>
             Ceci est une nav bar
-        </nav>
+        </nav> -->
 
         <div id="container_1">
             <div id="nav_bar_list">
@@ -25,6 +44,7 @@
                     <input type="text" placeholder="Entrez un nom" id="input_list">
                     <!-- <input type="submit" name="send"s id="submit_list" value="Ajouter"> -->
                     <button id="submit_list">Ajouter</button>
+                    <button id="clear_list">Réinitialiser</button>
                 </div>
             </div>
             <div id="nav_bar_list_content">
@@ -45,45 +65,557 @@
                     <img src="Images/button_left.png" alt="button_left" class="button_image" id="button__image_left" width="50px" height="50px">
                 </div>
                 <div id="carrousel_container">
-                    <!-- Action/ Fantasy/ Isekai/ School Life/ Shonen/ Drame/ Romance/ Comedy -->
+                    <!-- Action/ Fantasy/ Isekai/ School/ Sport/ Drame/ Romance/ Comedy -->
                     <div class="box_carrousel">
-                        <div class="box_carrousel_title">
-                            Action
+                        <div class="box_carrousel_inside">
+                            <div class="box_carrousel_inside_title">
+                                Action
+                            </div>
+                            <div class="box_carrousel_text">
+                                <div class="box_carrousel_text_inside" id="carrousel_snk">
+                                    Shingeki no Kyojin
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Fullmetal Alchemist: Brotherhood
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    One Punch Man
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Sword Art Online
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Boku no Hero Academia
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Naruto
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Tokyo Ghoul
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kimetsu no Yaiba
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Hunter x Hunter (2011)
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Code Geass: Hangyaku no Lelouch
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Jujutsu Kaisen
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Noragami
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    One Piece
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Akame ga Kill!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Nanatsu no Taizai
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Mirai Nikki (TV)
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Mob Psycho 100
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Ansatsu Kyoushitsu
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Ao no Exorcist
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Bleach
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="box_carrousel">
-                        <div class="box_carrousel_title">
-                            Fantasy
+                        <div class="box_carrousel_inside">
+                            <div class="box_carrousel_inside_title">
+                                Fantasy
+                            </div>
+                            <div class="box_carrousel_text">
+                                <div class="box_carrousel_text_inside">
+                                    Fullmetal Alchemist: Brotherhood 
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Sword Art Online
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Naruto
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Tokyo Ghoul
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kimetsu no Yaiba
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Hunter x Hunter (2011)
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    No Game No Life
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Jujutsu Kaisen
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Noragami
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Re:Zero kara Hajimeru Isekai Seikatsu
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    One Piece
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Akame ga Kill!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Nanatsu no Taizai
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Ao no Exorcist
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kono Subarashii Sekai ni Shukufuku wo!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Bleach
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Fairy Tail
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Violet Evergarden
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Soul Eater
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Hataraku Maou-sama!
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="box_carrousel">
-                        <div class="box_carrousel_title">
-                            Fantasy
+                        <div class="box_carrousel_inside">
+                            <div class="box_carrousel_inside_title">
+                                Isekai
+                            </div>
+                            <div class="box_carrousel_text">
+                                <div class="box_carrousel_text_inside">
+                                    No Game No Life
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Re:Zero kara Hajimeru Isekai Seikatsu
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kono Subarashii Sekai ni Shukufuku wo!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Overlord
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Tate no Yuusha no Nariagari
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kono Subarashii Sekai ni Shukufuku wo! 2
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Tensei shitara Slime Datta Ken
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Mushoku Tensei: Isekai Ittara Honki Dasu
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Youjo Senki
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Zero no Tsukaima
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Gate: Jieitai Kanochi nite, Kaku Tatakaeri
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Hai to Gensou no Grimgar
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Isekai Maou to Shoukan Shoujo no Dorei Majutsu
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Arifureta Shokugyou de Sekai Saikyou
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Mondaiji-tachi ga Isekai kara Kuru Sou Desu yo?
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Drifters
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kenja no Mago
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Isekai wa Smartphone to Tomo ni.
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Death March kara Hajimaru Isekai Kyousoukyoku
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="box_carrousel">
-                        <div class="box_carrousel_title">
-                            Fantasy
+                        <div class="box_carrousel_inside">
+                            <div class="box_carrousel_inside_title">
+                                School
+                            </div>
+                            <div class="box_carrousel_text">
+                                <div class="box_carrousel_text_inside">
+                                    Boku no Hero Academia
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Code Geass: Hangyaku no Lelouch
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Toradora!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Shigatsu wa Kimi no Uso
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Jujutsu Kaisen
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Angel Beats!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Ansatsu Kyoushitsu
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Ao no Exorcist
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Haikyuu!!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kill la Kill
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Another
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Shokugeki no Souma
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Charlotte
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kakegurui
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Clannad
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    High School DxD
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Yahari Ore no Seishun Love Comedy wa Machigatteiru.
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Hyouka
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="box_carrousel">
-                        <div class="box_carrousel_title">
-                            Fantasy
+                        <div class="box_carrousel_inside">
+                            <div class="box_carrousel_inside_title">
+                                Sport
+                            </div>
+                            <div class="box_carrousel_text">
+                                <div class="box_carrousel_text_inside">
+                                    Haikyuu!!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kuroko no Basket
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Yuri!!! on Ice
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Free!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Hajime no Ippo
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    SK∞
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Megalo Box
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Chihayafuru
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Keijo!!!!!!!!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Ping Pong the Animation
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Ballroom e Youkoso
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kaze ga Tsuyoku Fuiteiru
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Slam Dunk
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Diamond no Ace
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    One Outs
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Yowamushi Pedal
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Aoharu x Kikanjuu
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Inazuma Eleven
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Ahiru no Sora
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Hoshiai no Sora
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="box_carrousel">
-                        <div class="box_carrousel_title">
-                            Fantasy
+                        <div class="box_carrousel_inside">
+                            <div class="box_carrousel_inside_title">
+                                Drame
+                            </div>
+                            <div class="box_carrousel_text">
+                                <div class="box_carrousel_text_inside">
+                                    Shingeki no Kyojin
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Fullmetal Alchemist: Brotherhood   
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kimi no Na wa.
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Steins;Gate
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Code Geass: Hangyaku no Lelouch
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Koe no Katachi
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Toradora!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Shigatsu wa Kimi no Uso
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Re:Zero kara Hajimeru Isekai Seikatsu
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Angel Beats!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Neon Genesis Evangelion
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Death Parade
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Violet Evergarden
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Darling in the FranXX
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Charlotte
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Elfen Lied
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Tate no Yuusha no Nariagari
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kakegurui
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="box_carrousel">
-                        <div class="box_carrousel_title">
-                            Fantasy
+                        <div class="box_carrousel_inside">
+                            <div class="box_carrousel_inside_title">
+                                Romance
+                            </div>
+                            <div class="box_carrousel_text">
+                                <div class="box_carrousel_text_inside">
+                                    Sword Art Online 
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Toradora!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Shigatsu wa Kimi no Uso
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Darling in the FranXX
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Hataraku Maou-sama!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Elfen Lied
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Clannad
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Bakemonogatari
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    High School DxD
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Yahari Ore no Seishun Love Comedy wa Machigatteiru.
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Chuunibyou demo Koi ga Shitai!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Howl no Ugoku Shiro
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Sakura-sou no Pet na Kanojo
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kaichou wa Maid-sama!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Clannad: After Story
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Horimiya
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Nisekoi
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Ouran Koukou Host Club
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="box_carrousel">
-                        <div class="box_carrousel_title">
-                            Fantasy
+                        <div class="box_carrousel_inside">
+                            <div class="box_carrousel_inside_title">
+                                Comedy
+                            </div>
+                            <div class="box_carrousel_text">
+                                <div class="box_carrousel_text_inside">
+                                    One Punch Man
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    No Game No Life
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Mob Psycho 100
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Ansatsu Kyoushitsu
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kono Subarashii Sekai ni Shukufuku wo!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kill la Kill
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Dr. Stone
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Soul Eater
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Tengen Toppa Gurren Lagann
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Hataraku Maou-sama!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Black Clover
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    High School DxD
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Yahari Ore no Seishun Love Comedy wa Machigatteiru.
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Ansatsu Kyoushitsu 2nd Season
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Chuunibyou demo Koi ga Shitai!
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Tensei shitara Slime Datta Ken
+                                </div>
+                                <div class="box_carrousel_text_inside">
+                                    Bungou Stray Dogs
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -93,12 +625,33 @@
             </div>
         </div>
 
+        <dialog class="dialog_container" id="dialog_snk">
+            <h1>
+                Among us
+            </h1>
+            <button type="button" class="button_close">
+                Fermer
+            </button>
+        </dialog>
+
         <script src="script_page_list.js"></script>
+        <script src="script_page_list_modal.js"></script>
 
     </body>
 
-    <footer>
+    <!-- <footer>
         Ceci est un footer
-    </footer>
+    </footer> -->
+    <footer>
+        <p id="copyright">
+          Manga Actus.net est une propriété de Manga Actus Co.,Ltd ©2022 All Right
+          Reserved.
+        </p>
+        <div class="M">
+            <img src="./images/M.png" alt="m" />
+            <p id="thanks">Merci de votre visite !</p>
+            <img src="./images/M.png" alt="m" />
+        </div>
+      </footer>
 
 </html>
