@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+nav .mainMenu {
+    height: 50vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, var(--violet), var(--dark));
+    transition: top 2s ease;
+    display: none;
+    list-style: none;
+}
+
+nav .mainMenu .closeMenu{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2em;
+}
+
+#menuBurger {
+    margin: 5px;
+    background: linear-gradient(to bottom, var(--violet), var(--dark));
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.logo h1{
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+nav .openMenu {
+    display: block;
+    font-size: 2rem;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.coupDeCoeur img {
+    margin-left: 0.4em;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.presentation p {
+    display: flex;
+    align-items: center;
+    background-color: #565656;
+    padding: 1px;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: "Permanent Marker", cursive;
+}
+
+.forme p{
+    color: var(--light);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.forme{
+    background-color: var(--dark);
+    margin: 5px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#info {
+    background-color: #565656;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 361px){
+    .coupDeCoeur img{
+        width: 20%;
+        height: auto;
+    }
+
+    .presentation p{
+        border-radius: 10px;
+        font-family: "Permanent Marker", cursive;
+    }
+
+}
+
+@media all and (min-width: 600px){
+    .coupDeCoeur img {
+        width: 35%;
+        height: 35%;
+    }
+    .presentation p {
+        font-size: 0.9em;
+    }
+  }
+
+@media screen and (min-width: 1000px) {
+    .coupDeCoeur img {
+        width: 40%;
+    }
+    .presentation p {
+        font-size: 1.3em;
+        display: flex;
+        text-align: center;
+    }
+}
+
+
