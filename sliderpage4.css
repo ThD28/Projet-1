@@ -135,7 +135,7 @@ footer p {
        cercle. */
     text-align: center;
     margin-right: 5em;
-
+    overflow: scroll;
 
     /* attention à ce que le texte ne touche pas la bordure. placer le texte avec un remplissage, ce qui donnera une meilleure impression pour le cercle. */
     padding: 5em;
