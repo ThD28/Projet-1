@@ -1,15 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 #logo {
   justify-content: center;
   width: 20%;
-  height: auto;
+  margin-right: 2em;
 }
 
 header {
-  background: linear-gradient(to top, var(--violet), var(--dark));
+    background: linear-gradient(to top, var(--violet), var(--dark));
 }
 
 .listnav {
-  margin-right: 4%;
   width: 100%;
 }
 
@@ -18,16 +22,21 @@ header {
   flex-direction: column;
   align-items: center;
   font-family: "Permanent Marker", cursive;
+  padding: 0.5em;
 }
 
 .listnav nav ul {
   gap: 7%;
   display: flex;
   list-style: none;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .listnav ul li {
+  display: flex;
+}
+
+.listnav ul li a {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -40,12 +49,23 @@ header {
   flex-direction: row;
   justify-content: center;
   color: var(--light);
-  font-size: 23px;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 361px) {
   .navbar {
-    display: flex;
-    flex-direction: initial;
+    flex-direction: row;
+    font-size: 0.8em;
+  }
+}
+
+@media all and (min-width: 600px){
+  .navbar {
+    font-size: 1em;
+  }
+}
+
+@media all and (min-width: 1000px){
+  .navbar {
+    font-size: 1.5em;
   }
 }
