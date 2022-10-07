@@ -10,7 +10,7 @@
 }
 
 header {
-  background: linear-gradient(to top, var(--violet), var(--dark));
+    background: linear-gradient(to top, var(--violet), var(--dark));
 }
 
 .listnav {
