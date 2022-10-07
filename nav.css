@@ -27,20 +27,20 @@ header {
     justify-content: center;
 }
 
-.listnav ul li {
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    width: auto;
-    margin: 3px;
-    padding: 2%;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: var(--light);
-    font-size: 23px;
+.listnav ul li a {
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  width: auto;
+  margin: 3px;
+  padding: 2%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: var(--light);
+  font-size: 23px;
 }
 
 @media all and (min-width: 768px) {
