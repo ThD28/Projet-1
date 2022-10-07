@@ -1,6 +1,403 @@
 .dialog_container {
-    width: 10em;
-    height: 20em;
+    margin: 5%;
+    width: auto;
+    height: auto;
     text-align: center;
+    flex-direction: column;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    background-color: var(--dark);
+    border-radius: 1em;
 }
 
+.dialog_container::backdrop {  
+    backdrop-filter: blur(2px);
+}
+
+.dialog_container_img_syn {
+    flex-direction: column;
+    height: 66%;
+    width: auto;
+}
+
+.dialog_box_container_img {
+    /* background-color: blue; */
+    height: 50%;
+    width: auto;
+    /* padding: 1em; */
+}
+
+.dialog_img {
+    /* background-image: url("Images/snk_modal.jpg"); */
+    height: 100%;
+    width: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* img snk */
+
+#dialog_img_snk {
+    background-image: url("Images/snk_modal.jpg");
+}
+#dialog_img_snk2 {
+    background-image: url("Images/snk_modal.jpg");
+}
+
+
+/* img fma */
+
+#dialog_img_fma {
+    background-image: url("Images/fma_modal.jpg");
+}
+#dialog_img_fma2 {
+    background-image: url("Images/fma_modal.jpg");
+}
+#dialog_img_fma3 {
+    background-image: url("Images/fma_modal.jpg");
+}
+
+
+/* img opm */
+
+#dialog_img_opm {
+    background-image: url("Images/opm_modal.jpg");
+}
+#dialog_img_opm2 {
+    background-image: url("Images/opm_modal.jpg");
+}
+
+
+/* img sao */
+
+#dialog_img_sao {
+    background-image: url("Images/sao_modal.jpg");
+}
+#dialog_img_sao2 {
+    background-image: url("Images/sao_modal.jpg");
+}
+#dialog_img_sao3 {
+    background-image: url("Images/sao_modal.jpg");
+}
+
+
+/* img mha */
+
+#dialog_img_mha {
+    background-image: url("Images/mha.modal.jpg");
+}
+#dialog_img_mha2 {
+    background-image: url("Images/mha.modal.jpg");
+}
+
+
+/* img naruto */
+
+#dialog_img_naruto {
+    background-image: url("Images/naruto_modal.jpg");
+}
+
+
+/* img tokyo ghoul */
+
+#dialog_img_togo {
+    background-image: url("Images/tg_modal.jpg");
+}
+
+
+/* img Kimetsu no Yaiba */
+
+#dialog_img_kny {
+    background-image: url("Images/kny_modal.jpg");
+}
+
+
+/* img No Game No Life */
+
+#dialog_img_ngnl {
+    background-image: url("Images/nnn_modal.jpg");
+}
+#dialog_img_ngnl2 {
+    background-image: url("Images/nnn_modal.jpg");
+}
+
+
+/* img Re Zero */
+
+#dialog_img_rz {
+    background-image: url("Images/rz_modal.jpg");
+}
+
+
+/* img Kono Suba */
+
+#dialog_img_ks {
+    background-image: url("Images/ks_modal.jpg");
+}
+
+
+/* img Overlord */
+
+#dialog_img_overlord {
+    background-image: url("Images/overlord_modal.jpg");
+}
+
+
+/* img Tate no Yuusha */
+
+#dialog_img_tny {
+    background-image: url("Images/tny_modal.jpg");
+}
+
+
+/* img Code Geass */
+
+#dialog_img_cg {
+    background-image: url("Images/cg_modal.jpg");
+}
+#dialog_img_cg2 {
+    background-image: url("Images/cg_modal.jpg");
+}
+
+
+/* img Toradora */
+
+#dialog_img_toradora {
+    background-image: url("Images/toradora_modal.jpg");
+}
+#dialog_img_toradora2 {
+    background-image: url("Images/toradora_modal.jpg");
+}
+
+
+/* img Your Lie in April */
+
+#dialog_img_yla {
+    background-image: url("Images/yla_modal.jpg");
+}
+#dialog_img_yla2 {
+    background-image: url("Images/yla_modal.jpg");
+}
+
+
+/* img Jujutsu Kaisen */
+
+#dialog_img_jk {
+    background-image: url("Images/jk_modal.jpg");
+}
+
+
+/* img Haikyu */
+
+#dialog_img_haikyu {
+    background-image: url("Images/haikyu_modal.jpg");
+}
+
+
+/* img Kuroko */
+
+#dialog_img_knb {
+    background-image: url("Images/knb_modal.jpg");
+}
+
+
+/* img Yuri */
+
+#dialog_img_yoi {
+    background-image: url("Images/yoi_modal.jpg");
+}
+
+
+/* img Free */
+
+#dialog_img_free {
+    background-image: url("Images/free_modal.jpg");
+}
+
+
+/* img Hajime no Ippo */
+
+#dialog_img_hni {
+    background-image: url("Images/hni_modal.jpg");
+}
+
+/* img Kimi no Na wa. */
+
+#dialog_img_knnw {
+    background-image: url("Images/knnw_modal.jpg");
+}
+
+
+/* img Steins Gate*/
+
+#dialog_img_sg {
+    background-image: url("Images/sg_modal.jpg");
+}
+
+
+/* img Bunny Girl Senpai*/
+
+#dialog_img_bgs {
+    background-image: url("Images/bgs_modal.jpg");
+}
+
+
+/* img Darling in the Franxx*/
+
+#dialog_img_ditf {
+    background-image: url("Images/ditf_modal.jpg");
+}
+
+
+/* img Mob Psycho*/
+
+#dialog_img_mp {
+    background-image: url("Images/mp_modal.jpg");
+}
+
+
+/* img Assassination Classroom*/
+
+#dialog_img_ac {
+    background-image: url("Images/ac_modal.jpg");
+}
+
+
+/* img Kono Suba*/
+
+#dialog_img_kss {
+    background-image: url("Images/kss_modal.jpg");
+}
+
+.dialog_box_container1 {
+    /* background-color: green; */
+    background-color: var(--violet);
+    margin-top: 0.5em;
+    height: 50%;
+    width: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: solid 2px black;
+    border-radius: 1em;
+}
+
+.dialog_box1 {
+    /* overflow: scroll; */
+    padding-top: 0.5em;
+    padding-left: 1em;
+}
+
+.dialog_box1_box {
+    text-align: left;
+    margin-top: 0.4em;
+    color: var(--light);
+}
+
+.dialog_box1_synopsis {
+    text-align: left;
+    /* overflow: scroll; */
+    margin-top: 0.2em;
+}
+
+.dialog_box_container2 {
+    /* background-color: red; */
+    height: 27%;
+    width: auto;
+    /* padding-top: 0.5em; */
+    margin-top: 1.5em;
+}
+
+.dialog_box_tags {
+    background-color: var(--violet);
+    height: auto;
+    width: auto;
+    padding: 1em;
+    border: solid 2px black;
+    border-radius: 1em;
+}
+
+.dialog_box_tags_genres, .dialog_box_tags_themes {
+    text-align: left;
+    margin-top: 0.2em;
+}
+
+/* .dialog_box_button {
+    height: 20%;
+    width: auto;
+} */
+
+.animation {
+    animation: 1s ease-in-out animationModal ;
+}
+
+@keyframes animationModal {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.button_close {
+    background-color: var(--light);
+    width: 5em;
+    height: 2em;
+    margin-top: 0.5em;
+    /* margin-left: 1em;  */
+}
+
+@media all and (min-width: 600px) {
+    .dialog_container_img_syn {
+        flex-direction: unset;
+        display: flex;
+    }
+
+    .dialog_box_container_img {
+        width: 40%;
+        height: auto;
+        margin-right: 1em;
+        padding: 0.5em;
+        padding-top: 1em;
+    }
+
+    .dialog_box_container1 {
+        width: 57%;
+        height: auto;
+    }
+
+    .dialog_box_container2 {
+        margin-top: 1em;
+    }
+
+    .button_close {
+        margin-top: 1em;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .dialog_box_container_img {
+        width: 30%;
+        height: auto;
+    }
+
+    .dialog_box_container1 {
+        width: 67%;
+        height: auto;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .dialog_box_container_img {
+        width: 15%;
+        height: auto;
+    }
+
+    .dialog_box_container1 {
+        width: 82%;
+        height: auto;
+    }
+}
