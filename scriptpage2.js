@@ -22,7 +22,7 @@ const changeImg = () => {
         img.src ='./Images/rainbow.jpg'
     }
     else {
-        img.src = './images/rainbow-horizontal.jpg'
+        img.src = './Images/rainbow-horizontal.jpg'
     }
 }
 
