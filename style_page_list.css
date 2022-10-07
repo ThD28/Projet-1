@@ -228,23 +228,34 @@ footer {
 }
 
 @media all and (min-width: 1200px) {
+    #container_1 {
+        height: 30em;
+    }
+
+    #nav_bar_list_content {
+        height: 23em;
+        /* width: 100%;
+        overflow: scroll;
+        overflow-x: hidden; */
+    }
+
     .box_carrousel {
         width: 25%;
     }
 
     #container_2 {
-        height: 52em;
+        height: 42em;
     }
 
     #img_box_left {
-        margin-top: 18em;
+        margin-top: 15em;
     }
 
     #img_box_right {
-        margin-top: 18em;
+        margin-top: 15em;
     }
 
     .box_carrousel_inside {
-        height: 39em;
+        height: 29em;
     }
 }
