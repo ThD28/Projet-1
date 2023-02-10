@@ -1,0 +1,125 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleRoot.css" />
+    <link rel="stylesheet" href="page1.css" />
+    <link rel="stylesheet" href="carrousel.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="carrousel.js" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <title>Acceuil</title>
+    <link rel="shortcut icon" href="/Images/M.png" type="icon">
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <img src="./images/logo.png" alt="logo" id="logo" />
+        <div class="listnav">
+          <nav>
+            <ul>
+              <li><a href="./page1.html">Home</a></li>
+  
+              <li><a href="./page2.html">Team Fav</a></li>
+
+              <li><a href="./page_list.html">My List</a></li>
+
+              <li><a href="./sliderpage4.html">Wallpaper</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="box">
+      <div class="box1">
+        <div id="news">
+          <section class="slider-wrapper">
+            <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+
+            <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
+
+            <ul class="slides-container" id="slides-container">
+              <li class="slide"><img src=./images/image1.jpg alt="test" /></li>
+              <li class="slide"><img src=./images/image2.jpg /></li>
+              <li class="slide"><img src=./images/image3.jpg /></li>
+              <li class="slide"><img src=./images/image4.jpg /></li>
+            </ul>
+            <script src="index.js"></script>
+          </section>
+        </div>
+        <div id="lastNews">
+          <h2>Les dernière sorties !</h2>
+        </div>
+      </div>
+
+      <div class="box2">
+        <div id="title">
+          <h2>Les plus populaires !</h2>
+        </div>
+        <div class="content">
+          <img src="./images/1.jpg" />
+        </div>
+        <div class="content">
+          <img src="./images/2.jpg" />
+        </div>
+        <div class="content">
+          <img src="./images/3.jpg" />
+        </div>
+        <div class="content">
+          <img src="./images/4.jpg" />
+        </div>
+        <div class="content">
+          <img src="./images/5.jpg" />
+        </div>
+        <div class="content">
+          <img src="./images/6.jpg" />
+        </div>
+        <div class="content">
+          <img src="./images/7.jpg" />
+        </div>
+        <div class="content">
+          <img src="./images/8.jpg" />
+        </div>
+        <div class="content">
+          <img src="./images/9.jpg" />
+        </div>
+      </div>
+
+      <div class="box3">
+        <iframe
+          id="trailer"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/fzR82oXbjnY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <p id="copyright">
+        Manga Actus.net est une propriété de Manga Actus Co.,Ltd ©2022 All Right
+        Reserved.
+      </p>
+      <div class="M">
+        <img src="./images/M.png" alt="m" />
+        <p id="thanks">Merci de votre visite !</p>
+        <img src="./images/M.png" alt="m" />
+      </div>
+    </footer>
+
+    <script src="carrousel.js"></script>
+  </body>
+</html>
